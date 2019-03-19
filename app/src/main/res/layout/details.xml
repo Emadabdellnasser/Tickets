@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#232941"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#232941"
+    >
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:id="@+id/imagePlace"
+        android:src="@drawable/eicon"
+        android:layout_centerHorizontal="true"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagePlace"
+        android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="The name of the product"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:backgroundTint="#ffffff"
+        android:textColorHint="#ffffff"
+        android:id="@+id/product_name"
+       android:inputType="text"
+        android:capitalize="none"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="The price of the product"
+        android:textColor="#ffffff"
+        android:id="@+id/product_price"
+        android:gravity="center"
+        android:backgroundTint="#ffffff"
+        android:textColorHint="#ffffff"
+        android:inputType="text"
+        android:capitalize="none"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="admin password to post"
+        android:textColor="#ffffff"
+        android:id="@+id/passowrd"
+        android:gravity="center"
+        android:backgroundTint="#ffffff"
+        android:textColorHint="#ffffff"
+        android:inputType="numberPassword"
+        android:capitalize="none"
+        />
+
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202930"
+    android:orientation="vertical"
+android:paddingTop="20dp"
+    android:weightSum="1"
+    android:id="@+id/root"
+    tools:context="com.example.emad.myapplication.MainActivity">
+
+    <TextView
+        android:id="@+id/animatedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="cursive"
+        android:gravity="top"
+        android:text="Your Accessories"
+        android:textColor="#04a4ba"
+        android:textSize="50sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <ImageButton
+            android:id="@+id/newbt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/circl"
+            android:fontFamily="casual"
+            android:src="@drawable/elec"
+            android:text="Brows The Accessories"
+            android:textSize="25dp" />
+
+        <ImageButton
+            android:id="@+id/oldbt"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/newbt"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@id/newbt"
+            android:background="@drawable/circl"
+            android:fontFamily="casual"
+            android:src="@drawable/contact"
+            android:text="Contact us" />
+    </RelativeLayout>
+</RelativeLayout>

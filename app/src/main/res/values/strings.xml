@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">C-H-C</string>
+    <string name="hello">Visit www.hascode.com!</string>
+    <string-array name="planets_array">
+        <item>favourite color</item>
+        <item>red</item>
+        <item>yello</item>
+        <item>white</item>
+        <item>golden</item>
+        <item>black</item>
+    </string-array>
+
+</resources>
